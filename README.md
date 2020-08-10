@@ -10,10 +10,30 @@ This is the OpenMP optimized version of this [Road-maintainance-project](https:/
 
 ## Setup
 ```sh
-make all      -- Produce executable file and import all of the data to generate the result
+make all      -- Produce executable file and import all of the data to generate the result.
 ```
 
-## Analysis
+## Command Line argument
+
+<!-- argument table -->
+<br />
+        <p align="left">
+                <img src="images/arg.png" alt="arg">       
+        </p>
+<br/>
+
+## Performance
+`testfile.csv` is all of the road data from the government offered.
+`01.csv` is small size data from `testfile`, used to test program.
+
+<!--Performance -->
+<br />
+        <p align="left">Unit: sec
+                <img src="images/Table01.png" alt="Table01">       
+        </p>
+<br/>
+
+For this project, we can get a 175% accelerated runtime.
 
 ## Folder Structure
 * Data is saved into the `data` folder.
